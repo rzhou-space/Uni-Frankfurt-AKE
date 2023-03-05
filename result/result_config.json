@@ -1,0 +1,249 @@
+{
+    "result_dir": "/home/chrisbl/backup//result/",
+    "movement_dir": "/home/chrisbl/backup//result/movement/",
+    "expression_dir": "/home/chrisbl/backup//result/expression/",
+    "main_comparison_dir": "/home/chrisbl/backup//result/main_comparison/",
+    "conditions": {
+        "H1": {
+            "prefix": "/share/project/zarnack/chrisbl/lrgasp_data/05_coverage/ENCFF",
+            "replicates": [
+                "326IBB/ENCFF326IBB.gtf",
+                "714YOZ/ENCFF714YOZ.gtf",
+                "955CIA/ENCFF955CIA.gtf"
+            ],
+            "normalization": "FPKM",
+            "FAS_modes": [
+                "all"
+            ],
+            "species": "homo_sapiens",
+            "release": "107",
+            "lib_config": "/home/chrisbl/backup/FAS_library/homo_sapiens/release-107/config.tsv",
+            "expression_path": "/home/chrisbl/backup//result/expression/expression_H1_ENSv107.json",
+            "movement_path": {
+                "all": "/home/chrisbl/backup//result/movement/movement_H1_all_ENSv107.json",
+                "lcr": null,
+                "tmhmm": null
+            },
+            "compared_with": [
+                "H1_mix",
+                "WTC11",
+                "embryo_ED",
+                "WT",
+                "R634Q",
+                "P633L",
+                "WTNC"
+            ]
+        },
+        "WTC11": {
+            "prefix": "/share/project/zarnack/chrisbl/lrgasp_data/05_coverage/ENCFF",
+            "replicates": [
+                "263YFG/ENCFF263YFG.gtf",
+                "023EXJ/ENCFF023EXJ.gtf",
+                "961HLO/ENCFF961HLO.gtf"
+            ],
+            "normalization": "FPKM",
+            "FAS_modes": [
+                "all"
+            ],
+            "species": "homo_sapiens",
+            "release": "107",
+            "lib_config": "/home/chrisbl/backup/FAS_library/homo_sapiens/release-107/config.tsv",
+            "expression_path": "/home/chrisbl/backup//result/expression/expression_WTC11_ENSv107.json",
+            "movement_path": {
+                "all": "/home/chrisbl/backup/result/movement/movement_WTC11_all_ENSv107.json",
+                "lcr": null,
+                "tmhmm": null
+            },
+            "compared_with": [
+                "H1",
+                "embryo_ED",
+                "H1_mix",
+                "R634Q",
+                "WTNC",
+                "WT",
+                "P633L"
+            ]
+        },
+        "embryo_ED": {
+            "prefix": "/share/project/zarnack/chrisbl/lrgasp_data/05_coverage/ENCFF",
+            "replicates": [
+                "180OMN/ENCFF180OMN.gtf",
+                "754BZS/ENCFF754BZS.gtf",
+                "277PKW/ENCFF277PKW.gtf"
+            ],
+            "normalization": "FPKM",
+            "FAS_modes": [
+                "all"
+            ],
+            "species": "homo_sapiens",
+            "release": "107",
+            "lib_config": "/home/chrisbl/backup/FAS_library/homo_sapiens/release-107/config.tsv",
+            "expression_path": "/home/chrisbl/backup//result/expression/expression_embryo_ED_ENSv107.json",
+            "movement_path": {
+                "all": "/home/chrisbl/backup//result/movement/movement_embryo_ED_all_ENSv107.json",
+                "lcr": null,
+                "tmhmm": null
+            },
+            "compared_with": [
+                "H1_mix",
+                "WTC11",
+                "H1",
+                "WTNC",
+                "R634Q",
+                "WT",
+                "P633L"
+            ]
+        },
+        "H1_mix": {
+            "prefix": "/share/project/zarnack/chrisbl/lrgasp_data/05_coverage/ENCFF",
+            "replicates": [
+                "082OHO/ENCFF082OHO.gtf",
+                "304JRO/ENCFF304JRO.gtf",
+                "389YOZ/ENCFF389YOZ.gtf"
+            ],
+            "normalization": "FPKM",
+            "FAS_modes": [
+                "all"
+            ],
+            "species": "homo_sapiens",
+            "release": "107",
+            "lib_config": "/home/chrisbl/backup/FAS_library/homo_sapiens/release-107/config.tsv",
+            "expression_path": "/home/chrisbl/backup//result/expression/expression_H1_mix_ENSv107.json",
+            "movement_path": {
+                "all": "/home/chrisbl/backup//result/movement/movement_H1_mix_all_ENSv107.json",
+                "lcr": null,
+                "tmhmm": null
+            },
+            "compared_with": [
+                "H1",
+                "embryo_ED",
+                "WTC11",
+                "WT",
+                "R634Q",
+                "WTNC",
+                "P633L"
+            ]
+        },
+        "WTNC": {
+            "prefix": "/share/gluster/Projects/FeatureArchitectureUniverse/gtf/ERR285651",
+            "replicates": [
+                "4.fastq.gz_desalt.sort.bam.out_stringtie_recount.gtf",
+                "5.fastq.gz_desalt.sort.bam.out_stringtie_recount.gtf"
+            ],
+            "normalization": "FPKM",
+            "FAS_modes": [
+                "all"
+            ],
+            "species": "homo_sapiens",
+            "release": "107",
+            "lib_config": "/home/chrisbl/backup/FAS_library/homo_sapiens/release-107/config.tsv",
+            "expression_path": "/home/chrisbl/backup//result/expression/expression_WTNC_ENSv107.json",
+            "movement_path": {
+                "all": "/home/chrisbl/backup//result/movement/movement_WTNC_all_ENSv107.json",
+                "lcr": null,
+                "tmhmm": null
+            },
+            "compared_with": [
+                "WT",
+                "R634Q",
+                "P633L",
+                "embryo_ED",
+                "WTC11",
+                "H1_mix",
+                "H1"
+            ]
+        },
+        "P633L": {
+            "prefix": "/share/gluster/Projects/FeatureArchitectureUniverse/gtf/ERR457891",
+            "replicates": [
+                "0.fastq.gz_desalt.sort.bam.out_stringtie_recount.gtf",
+                "1.fastq.gz_desalt.sort.bam.out_stringtie_recount.gtf"
+            ],
+            "normalization": "FPKM",
+            "FAS_modes": [
+                "all"
+            ],
+            "species": "homo_sapiens",
+            "release": "107",
+            "lib_config": "/home/chrisbl/backup/FAS_library/homo_sapiens/release-107/config.tsv",
+            "expression_path": "/home/chrisbl/backup//result/expression/expression_P633L_ENSv107.json",
+            "movement_path": {
+                "all": "/home/chrisbl/backup/result/movement/movement_P633L_all_ENSv107.json",
+                "lcr": null,
+                "tmhmm": null
+            },
+            "compared_with": [
+                "R634Q",
+                "WTNC",
+                "WT",
+                "H1",
+                "WTC11",
+                "H1_mix",
+                "embryo_ED"
+            ]
+        },
+        "R634Q": {
+            "prefix": "/share/gluster/Projects/FeatureArchitectureUniverse/gtf/ERR285651",
+            "replicates": [
+                "0.fastq.gz_desalt.sort.bam.out_stringtie_recount.gtf",
+                "1.fastq.gz_desalt.sort.bam.out_stringtie_recount.gtf",
+                "2.fastq.gz_desalt.sort.bam.out_stringtie_recount.gtf",
+                "3.fastq.gz_desalt.sort.bam.out_stringtie_recount.gtf"
+            ],
+            "normalization": "FPKM",
+            "FAS_modes": [
+                "all"
+            ],
+            "species": "homo_sapiens",
+            "release": "107",
+            "lib_config": "/home/chrisbl/backup/FAS_library/homo_sapiens/release-107/config.tsv",
+            "expression_path": "/home/chrisbl/backup//result/expression/expression_R634Q_ENSv107.json",
+            "movement_path": {
+                "all": "/home/chrisbl/backup//result/movement/movement_R634Q_all_ENSv107.json",
+                "lcr": null,
+                "tmhmm": null
+            },
+            "compared_with": [
+                "WTNC",
+                "P633L",
+                "WT",
+                "H1",
+                "H1_mix",
+                "embryo_ED",
+                "WTC11"
+            ]
+        },
+        "WT": {
+            "prefix": "/share/gluster/Projects/FeatureArchitectureUniverse/gtf/ERR28565",
+            "replicates": [
+                "16.fastq.gz_desalt.sort.bam.out_stringtie_recount.gtf",
+                "17.fastq.gz_desalt.sort.bam.out_stringtie_recount.gtf",
+                "18.fastq.gz_desalt.sort.bam.out_stringtie_recount.gtf",
+                "19.fastq.gz_desalt.sort.bam.out_stringtie_recount.gtf",
+                "20.fastq.gz_desalt.sort.bam.out_stringtie_recount.gtf"
+            ],
+            "normalization": "FPKM",
+            "FAS_modes": [
+                "all"
+            ],
+            "species": "homo_sapiens",
+            "release": "107",
+            "lib_config": "/home/chrisbl/backup/FAS_library/homo_sapiens/release-107/config.tsv",
+            "expression_path": "/home/chrisbl/backup//result/expression/expression_WT_ENSv107.json",
+            "movement_path": {
+                "all": "/home/chrisbl/backup//result/movement/movement_WT_all_ENSv107.json",
+                "lcr": null,
+                "tmhmm": null
+            },
+            "compared_with": [
+                "WTNC",
+                "R634Q",
+                "P633L",
+                "H1",
+                "H1_mix",
+                "embryo_ED",
+                "WTC11"
+            ]
+        }
+    }
+}
