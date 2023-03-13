@@ -14,7 +14,7 @@ from sklearn.preprocessing import StandardScaler
 from mpl_toolkits.mplot3d import Axes3D
 
 
-############################################################################
+##########################################################################################
 def read_expression_data(direction):
     """
     This function read in all .JSON files along the given direction. 
@@ -183,7 +183,7 @@ def PCA_plot_mov(conditions, repl_num, info_content, plot_name,
     ax1.set_xlabel('Principal Component 1', fontsize = 10)
     ax1.set_ylabel('Principal Component 2', fontsize = 10)
     ax1.set_zlabel('Principal Component 3', fontsize = 10)
-    ax1.set_title('information content:'+                        str(round(sum(info_content), 2)*100)+r'%',                        fontsize=10)
+    ax1.set_title('information content:'+ str(round(sum(info_content), 2)*100)+r'%', fontsize=10)
     ax1.legend()
     
     # Second Subplot
@@ -197,7 +197,7 @@ def PCA_plot_mov(conditions, repl_num, info_content, plot_name,
         
     ax2.set_xlabel('Principal Component 1', fontsize = 10)
     ax2.set_ylabel('Principal Component 2', fontsize = 10)
-    ax2.set_title('information content:'+                        str(round(sum(info_content[0:2]), 2)*100)+r'%',                        fontsize=10)
+    ax2.set_title('information content:'+ str(round(sum(info_content[0:2]), 2)*100)+r'%', fontsize=10)
     ax2.legend().set_visible(False)
     
     # Third Subplot
@@ -211,7 +211,7 @@ def PCA_plot_mov(conditions, repl_num, info_content, plot_name,
         
     ax3.set_xlabel('Principal Component 1', fontsize = 10)
     ax3.set_ylabel('Principal Component 3', fontsize = 10)
-    ax3.set_title('information content:'+                        str(np.round(info_content[0]+info_content[2], 2)*100)+r'%',                        fontsize=10)
+    ax3.set_title('information content:'+ str(np.round(info_content[0]+info_content[2], 2)*100)+r'%',fontsize=10)
     ax3.legend().set_visible(False)
     
     
@@ -226,7 +226,7 @@ def PCA_plot_mov(conditions, repl_num, info_content, plot_name,
         
     ax4.set_xlabel('Principal Component 2', fontsize = 10)
     ax4.set_ylabel('Principal Component 3', fontsize = 10)
-    ax4.set_title('information content:'+                        str(np.round(sum(info_content[1:]), 2)*100)+r'%',                        fontsize=10)
+    ax4.set_title('information content:'+ str(np.round(sum(info_content[1:]), 2)*100)+r'%', fontsize=10)
     ax4.legend().set_visible(False)
         
     
@@ -329,7 +329,7 @@ def PCA_plot_expression(conditions, replicates, info_content
     
     plt.show()
     
-###################################################################################################
+###########################################################################################
 # Final functions that could be used to generate final plots by giving folder direction.
 
 def repl_gene_expression(direction):
