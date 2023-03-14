@@ -1,4 +1,4 @@
-Documentation of Endoderm_Replicates.py file
+Documentation of Single_Replicates.py file
 
 This model was thought to be used for only one cell type. And consider 
 only active genes to visualize different analysis levels.
