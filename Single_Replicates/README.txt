@@ -42,7 +42,7 @@ With the PCA representing transcript expressions only for active genes.
 A panel image of PCA results will be returned. 
 
 3. active_relative_transcript_expr(direction)
-With the PCA representing transcript expressions only for active genes. 
+With the PCA representing relative transcript expressions only for active genes. 
 Relative transcript expressions are calculated from transcript expressions.
 A panel image of PCA results will be returned. 
 
