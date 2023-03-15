@@ -5,14 +5,10 @@ import glob,os
 import pandas as pd
 import numpy as np
 import scipy as sp
-get_ipython().run_line_magic('matplotlib', 'widget')
-from matplotlib import pyplot as plt
-from matplotlib.gridspec import GridSpec
 import json
+from json import JSONEncoder
 from sklearn.decomposition import PCA
 from sklearn.preprocessing import StandardScaler
-from sklearn.cluster import KMeans
-
 
 ###########################################################################################
 
