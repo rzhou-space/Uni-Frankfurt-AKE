@@ -57,7 +57,7 @@ def read_mov_data(direction):
     This function extracts the movement information, conditions, replicates,
     and (GeneID, ProtID) from .JSON files containing movement results.
     Movements are applied for calculations of final ewfd score.
-    Lists of conditions, replicates, mean_movement, and IDs will be returned.
+    Lists of conditions, mean_movement, and IDs will be returned.
     
     direction: String. Path to the folder where all .JSON files are stored.
     """
