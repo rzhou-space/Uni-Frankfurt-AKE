@@ -25,3 +25,5 @@ active genes to undergo analyzing with mean values.
 The functions in package Single_Replicates then consider only one data set
 and only active genes with replicate values directly.
 
+Data sets are treated with PCA in all cases. The results of PCA are also 
+contained in each package and are written in .JSON formate.
